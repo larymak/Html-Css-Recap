@@ -6,6 +6,6 @@
 
 * Use relative linking to make it work!
 
-* Hint: If you need some reading material on relative linking you can use <https://css-tricks.com/quick-reminder-about-file-paths/>.
+* Hint: If you need some reading material on relative linking you can use <https://css-tricks.com/quick-reminder-about-file-paths/>. and learn more on CSS tricks
 
 * If you finish early, help out those around you, or begin reading through the Learn CSS Layout Guide found here: <http://learnlayout.com/no-layout.html> 
