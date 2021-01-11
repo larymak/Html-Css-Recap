@@ -1,0 +1,32 @@
+/**
+ * Relative Position: sets boxes relative to its original location
+ * (i.e. below or left of where the element would normally be)
+ **/
+
+.box-set {
+  position: relative;
+  height: 400px;
+  background: darkgray;
+}
+
+.box {
+  /* relative positioning */
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background: #2db34a;
+  border: 2px solid black;
+}
+
+.box-1 {
+  top: 20px;
+}
+
+.box-2 {
+  left: 40px;
+}
+
+.box-3 {
+  right: 20px;
+  bottom: -10px;
+}

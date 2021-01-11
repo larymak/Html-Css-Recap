@@ -1,0 +1,40 @@
+/**
+ * Z-Index: let's us position elements on top of each other (the z-axis controls depth position)
+ **/
+
+.box-set {
+  position: relative;
+  height: 400px;
+  background: darkgray;
+}
+
+.box {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #2db34a;
+  border: 2px solid black;
+}
+
+.box-1 {
+  top: 10px;
+  left: 10px;
+}
+
+.box-2 {
+  bottom: 10px;
+  left: 70px;
+  z-index: 3;
+}
+
+.box-3 {
+  top: 10px;
+  left: 130px;
+  z-index: 2;
+}
+
+.box-4 {
+  bottom: 10px;
+  left: 190px;
+  z-index: 1;
+}
