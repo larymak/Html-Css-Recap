@@ -1,0 +1,38 @@
+/**
+ * Fixed Position: Anchors element to the browser
+ **/
+
+.box-set {
+  position: relative;
+  height: 400px;
+  background: darkgray;
+}
+
+.box {
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  background: #2db34a;
+  border: 2px solid black;
+}
+
+/* Box rules: percentages define anchors (i.e. position of each box relative to browser window) */
+
+.box-1 {
+  top: 6%;
+  left: 2%;
+}
+
+.box-2 {
+  top: 0;
+  right: -40px;
+}
+
+.box-3 {
+  right: 20px;
+  bottom: -10px;
+}
+
+.box-4 {
+  bottom: 0;
+}
