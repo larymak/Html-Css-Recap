@@ -1,0 +1,19 @@
+h1 {
+  font-size: 30px;
+}
+
+a {
+  font-size: 50px;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  background-color: black;
+}
+
+a:focus {
+  background-color: coral;
+}
