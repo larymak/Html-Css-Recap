@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Array Activity - Solved</title>
+  </head>
+  <body>
+
+    <h1>Open the console to see the magic!</h1>
+
+    <script type="text/javascript">
+
+      // Creates an array called animals.
+      var animals = ["parrot", "cat", "dog"];
+
+      // Logs the length of the animals array (3).
+      console.log(animals.length);
+
+      // Logs the animal cat.
+      console.log(animals[1]);
+
+      // Logs the animal dog.
+      console.log(animals[2]);
+
+      // Logs the animal parrot.
+      console.log(animals[0]);
+
+      // Logs the animal[3]. Since there is no animal in that index, undefined is logged.
+      console.log(animals[animals.length]);
+
+      // Logs the animal[2] which is dog.
+      console.log(animals[animals.length - 1]);
+
+      // Logs the index position for bear. Since bear isn't in the array, -1 is logged.
+      console.log(animals.indexOf("bear"));
+
+      // Logs the index position for parrot, which is 0.
+      console.log(animals.indexOf("parrot"));
+
+    </script>
+
+  </body>
+</html>
