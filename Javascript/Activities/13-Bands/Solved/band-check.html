@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Favorite Bands</title>
+  </head>
+  <body>
+
+    <script>
+
+      // Created an array named myBands.
+      var myBands = ["britney", "selena", "bob dylan", "blink 182", "michael jackson"];
+
+      // Created a prompt to get the user's favorite band.
+      var userGuess = prompt("Which band or artist do you like?");
+
+      // Converts the user's answer to lowercase.
+      var userGuessLower = userGuess.toLowerCase();
+
+      // Now we check the myBands array to see if it contains the user's answer.
+      // If the user's band is not in the array...
+      if (myBands.indexOf(userGuessLower) === -1) {
+        alert("Nah! They're pretty lame...");
+      }
+      // If it is in the array...
+      else {
+        alert("OMG! I love them too!");
+      }
+
+    </script> 
+
+  </body>
+</html>
